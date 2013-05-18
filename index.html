@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Primeros Pasos Con python | Diplomado en desarrollo de Aplicaciones Web</title>
+
+    <link rel="stylesheet" href="assets/css/kinout-1.0.css">
+    <link rel="stylesheet" href="assets/css/theme.kinout.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+
+</head>
+
+<body>
+    <div class="kinout">
+
+        <section>
+            <article>
+                <h1 class="text big" >Primeros Pasos con</h1>
+                <div>
+                    <img src="http://www.python.org/community/logos/python-logo-master-v3-TM.png" alt="logo python" />
+                </div>
+                <div>
+                    <h4><mark><a href="twitter.com/skeiter9">@skeiter9</a></mark></h4>
+                </div>
+                <!---->
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <header class="box">
+                    <h2>Qués es python ?</h2>
+                </header>
+
+                <footer class="box white ">
+                    <h2><a href="https://twitter.com/yetsupe">@yetsupe</a></h2>
+                </footer>
+
+                <div>
+                    Python es un lenguaje de programación Interpretado o de script creado por Guido van Rossum
+                    a principios de los años 90 cuyo nombre está inspirado en el grupo de
+                    cómicos ingleses “Monty Python”. tiene una sintaxis muy limpia y se asemeja a pseudocódigo, con tipado dinámico,fuertemente tipado, multiplataforma y orientado a objetos.
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h1>Caracteristicas</h1>
+            </article>
+            <article>
+                <header class="box"><h3>Lenguaje interpretado o de script</h3></header>
+                <div>
+                    <p>Un lenguaje interpretado o de script es aquel que se ejecuta utilizando
+                    un programa intermedio llamado intérprete, en lugar de compilar el
+                    código a lenguaje máquina que pueda comprender y ejecutar directa-
+                    mente una computadora (lenguajes compilados).
+                    La ventaja de los lenguajes compilados es que su ejecución es más
+                    rápida. Sin embargo los lenguajes interpretados son más flexibles y más
+                    portables.
+                    Python tiene, no obstante, muchas de las características de los lengua-
+                    jes compilados, por lo que se podría decir que es semi interpretado. En
+                    Python, como en Java y muchos otros lenguajes, el código fuente se
+                    traduce a un pseudo código máquina intermedio llamado bytecode la
+                    primera vez que se ejecuta, generando archivos .pyc o .pyo (bytecode
+                    optimizado), que son los que se ejecutarán en sucesivas ocasiones.</p>
+                    
+                </div>
+            </article>
+            <article>
+                <header class="box"><h3>Tipado dinámico</h3></header>
+                <div> <p>La característica de tipado dinámico se refiere a que no es necesario
+                    declarar el tipo de dato que va a contener una determinada variable,
+                    7Python para todos
+                    sino que su tipo se determinará en tiempo de ejecución según el tipo
+                    del valor al que se asigne, y el tipo de esta variable puede cambiar si se
+                    le asigna un valor de otro tipo.</p>
+                    </div>
+            </article>
+            <article>
+                <header class="box"><h3>Fuertemente tipado</h3></header>
+                <div>
+                    <p>No se permite tratar a una variable como si fuera de un tipo distinto
+                    al que tiene, es necesario convertir de forma explícita dicha variable
+                    al nuevo tipo previamente. Por ejemplo, si tenemos una variable que
+                    contiene un número no podremos tratarla como un string, no podemos mostrar directamente el número.
+                    </p>
+                    <pre class="margin-top" contenteditable="true">
+<code data-language="python">
+    codigo=58769
+    print "El código Ingresado es " + codigo # Error !!!!!
+    print "El código ingresado es " + str(codigo) #bieeeeen (1)
+    print "El código ingresado es ",codigo #bieeeeen (2)
+    print "El código ingresado es %s "%codigo #bieeeeen (3)
+
+</code>          </pre>
+                    </div>
+            </article>
+            
+            <article>
+                <header class="box"><h3>Multiplataforma</h3></header>
+                <div><p>El intérprete de Python está disponible en multitud de plataformas
+                    (UNIX, Solaris, Linux, DOS, Windows, OS/2, Mac OS, etc.) por lo
+                    que si no utilizamos librerías específicas de cada plataforma nuestro
+                    programa podrá correr en todos estos sistemas sin grandes cambios.</p>
+                </div>
+                <div class="text size6 box">
+                    En S.O derivados de unix como gnu/Linux y Mac , python ya
+                    viene instalado por defecto.
+                </div>
+                
+            </article>
+            <article>
+                <header class="box">
+                    <h2>Orientado a objetos</h2>
+                </header>
+                <div>
+                    <p>La orientación a objetos es un paradigma de programación en el que
+                    los conceptos del mundo real relevantes para nuestro problema se tras-
+                    ladan a clases y objetos en nuestro programa. La ejecución del progra-
+                    ma consiste en una serie de interacciones entre los objetos.
+                    Python también permite la programación imperativa
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article data-size="middle">
+                <blockquote>Code Time !</blockquote>
+                <cite>Instalación y mi primera App con python</cite>
+            </article>
+        </section>
+
+        <section >
+            <article>
+                <header class="box "><h2>Mi Primera App</h2></header>
+                <div><p>Tenemos 2 maneras de ejecutar python</p>
+                    <mark>Por Consola</mark>
+                </div>
+                <div>
+                    <img src="assets/image/consola.jpg" alt="" class="">
+                </div>
+            </article>
+            <article>
+                <header class="box "><h2>Mi Primera App</h2></header>
+                <div><p>Tenemos 2 maneras de ejecutar python</p>
+                    <mark>Ejecutando ficheros .py</mark>
+                </div>
+                <div>
+                    <img src="assets/image/ejecutando-ficheros-py.png" alt="" class="">
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <header class="box">
+                    <h2>Comentarios y caracteres Especiales</h2>
+                </header>
+                <div>
+                    <pre class="margin-top" contenteditable="true">
+<code data-language="python">
+    #-*- coding:utf-8 -*-
+    #los comentarios en Python se definen con #
+    #para no tener problemas con caracteres Especiales
+    #como ``` , ñ , etc debemos agregar la siguiente linea 
+    #en la cabecera de nuestro fichero
+    
+
+</code>          </pre>
+                </div>
+                <div>
+                    <pre class="margin-top" contenteditable="true">
+<code data-language="python">
+    #ojo en el caso de S.O derivados de UNIX
+    #deberiasmos agragar el hasbang
+    #!/user/bin/python
+</code>          </pre>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <header class="box">
+                    <h2>Típos Básicos y operadores matemáticos</h2>
+                </header>
+                <div>
+                    <div class=" column box big">
+                        <mark>típos de variables :</mark>
+                        <ul>
+                            <li>Númericos (int,long,complex)</li>
+                            <li>Strings (cadenas)</li>
+                            <li>Booleanos (true,false)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box ">
+                        <p><mark>operadores Matemáticos</mark></p>
+                        <img src="assets/image/operadores.png" alt="">
+                    </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>data-<mark>step</mark></h2>
+                <h4>...a cool property for elements in slide.</h4>
+
+                <div>
+
+                </div>
+                <div>
+                    <ul>
+                        <li><mark>press down to view next step</mark></li>
+                        <li data-step="fade">Step with "fade"</li>
+                        <li data-step="boom">Step with "boom"</li>
+                        <li data-step="zoom">Step with "zoom"</li>
+                        <li data-step="move">Step with "move"</li>
+                        <li data-step="move alternate">Step with "move alternate"</li>
+                        <li data-step="fade"><mark>press down to see in vertical slide</mark></li>
+                    </ul>
+                </div>
+
+                <div>
+            </article>
+
+            <article>
+                <header>
+                    <h2>press down...</h2>
+                </header>
+                <h1 data-step="move">yeah!!!</h1>
+                <h2 data-step="move alternate"><mark>it works!</mark></h2>
+            </article>
+        </section>
+
+        <section data-image="http://farm6.staticflickr.com/5142/5837835862_81f956dd69.jpg" style="background-image: url(http://farm6.staticflickr.com/5142/5837835862_81f956dd69.jpg);">
+            <article>
+                <footer class="box">
+                    <h2>data-image</h2>
+                    <h3>... a easy way to full-screen images</h3>
+                </footer>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <header>
+                    <h2>Embedded code</h2>
+                    <h4><mark>a great way to show your code</mark></h4>
+                </header>
+
+                <div>
+                    <pre class="margin-top" contenteditable="true">
+<code data-language="javascript">$.ajax({
+    type: 'POST', // defaults to 'GET'
+    url: 'http://rest',
+    data: {user: 'soyjavi', pass: 'twitter'},
+    dataType: 'json', //'json', 'xml', 'html', or 'text'
+    async: true,
+    success: function(response) { ... },
+    error: function(xhr, type) { ... }
+});</code>          </pre>
+
+                    <h4><mark>Press to view code with data-step</mark></h4>
+
+           <pre class="margin-top" data-step="move alternate">
+<code data-language="javascript">$.ajax({
+    type: 'POST', // defaults to 'GET'
+    url: 'http://rest',
+    data: {user: 'soyjavi', pass: 'twitter'},
+    dataType: 'json', //'json', 'xml', 'html', or 'text'
+    async: true,
+    success: function(response) { ... },
+    error: function(xhr, type) { ... }
+});</code>          </pre>
+                </div>
+            </article>
+        </section>
+
+
+        <section>
+            <article>
+                <header>
+                    <h2>Columns</h2>
+                    <h4><mark>divide your slide easily</mark></h4>
+                </header>
+
+                <div>
+                    <span class="column box big">
+                        .box .big
+                    </span>
+                    <span class="column box big">
+                        .box .big
+                    </span>
+                </div>
+
+                <div>
+                    <span class="column box medium">
+                        .box .medium
+                    </span>
+                    <span class="column box medium">
+                        .box .medium
+                    </span>
+                    <span class="column box medium">
+                        .box .medium
+                    </span>
+                </div>
+
+                <div>
+                    <span class="column box small">
+                         .box .small
+                    </span>
+                    <span class="column box small">
+                        .box .small
+                    </span>
+                    <span class="column box small">
+                        .box .small
+                    </span>
+                    <span class="column box small">
+                        .box .small
+                    </span>
+                </div>
+
+                <div><mark>Example with images</mark></div>
+                <div>
+                    <span class="column small">
+                        <img src="http://tapquo.com/images/team-javi.jpg" class="bordered size_200"/>
+                        <h4><a href="http://twitter.com/soyjavi"><mark>@soyjavi</mark></a></h4>
+                    </span>
+                    <span class="column small">
+                        <img src="http://tapquo.com/images/team-aitor.jpg" class="bordered size_200"/>
+                        <h4><a href="http://twitter.com/soyjavi"><mark>@aitorjvoa</mark></a></h4>
+                    </span>
+                    <span class="column small">
+                        <img src="http://tapquo.com/images/team-mikel.jpg" class="bordered size_200"/>
+                        <h4><a href="http://twitter.com/soyjavi"><mark>@mikel_ade</mark></a></h4>
+                    </span>
+                    <span class="column small">
+                        <img src="http://tapquo.com/images/team-janire.jpg" class="bordered size_200"/>
+                        <h4><a href="http://twitter.com/soyjavi"><mark>@janixy91</mark></a></h4>
+                    </span>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <header>
+                    <h2><mark>Nerd</mark> behind #kinout<mark>JS</mark></h2>
+                    <h4><mark>...dangerous with SublimeText</mark></h4>
+                </header>
+                <div class="top">
+                    <span class="column big">
+                        <img src="assets/image/soyjavi.jpg" class="bordered size_256 box">
+                        <h4><a href="http://twitter.com/soyjavi"><mark>@soyjavi</mark></a></h4>
+                    </span>
+
+                    <span class="column big right">
+                        <ul>
+                            <li class="text size4">Leire's <mark>husband</mark></li>
+                            <li class="text size08">CEO & Founder at <mark>@tapquo</mark></li>
+                            <li class="text size08"><mark>@LungoJS</mark> & <mark>@QuoJS</mark> author</li>
+                            <li class="text size08"><mark>#Web</mark> believer & <mark>#W3C</mark> member</li>
+                            <li class="text size07"><mark>#JavaScript</mark> & #CleanCode lover</li>
+                            <li class="text size2"><mark>#HTML5</mark> evangelist </mark></li>
+                            <li class="text size09">...sometimes <mark>#Nerd Speaker</mark></li>
+                        </ul>
+                    </span>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h1>...fork me on <mark>github</mark></h1>
+                <h2><a href="https://github.com/soyjavi/kinout"><mark>https://github.com/soyjavi/</mark>kinout</a></h2>
+            </article>
+        </section>
+    </div>
+    <script src="assets/javascript/QuoJS.js"></script>
+    <script src="assets/javascript//raf.js"></script>
+    <script src="http://kinout.tapquo.com/build/kinout-1.0.js"></script>
+    <script>
+        $$(document).ready(function() {
+            KINOUT.init();
+        });
+    </script>
+    <script src="assets/javascript/rainbow/rainbow.min.js"></script>
+    <script src="assets/javascript/rainbow/language/generic.js"></script>
+
+</body>
+</html>
